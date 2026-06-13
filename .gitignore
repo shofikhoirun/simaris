@@ -1,0 +1,37 @@
+# Uploaded files
+uploads/*
+!uploads/.gitkeep
+exports/*
+!exports/.gitkeep
+
+# Dependencies
+vendor/
+node_modules/
+
+# Environment
+.env
+.env.local
+config/local.php
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+error_log
+
+# Cache
+cache/
+tmp/
+
+# Backups
+*.bak
+*.sql.bak
