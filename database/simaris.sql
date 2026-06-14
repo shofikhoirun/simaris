@@ -3,11 +3,7 @@
 -- Database Schema (MySQL / MariaDB)
 -- =====================================================
 
-CREATE DATABASE IF NOT EXISTS `simaris_db`
-  DEFAULT CHARACTER SET utf8mb4
-  COLLATE utf8mb4_unicode_ci;
 
-USE `simaris_db`;
 
 -- -----------------------------------------------------
 -- Tabel: users (Role-Based Access Control)
